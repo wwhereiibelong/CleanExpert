@@ -1,0 +1,6 @@
+{
+  "name": "CleanExpert",
+  "description": "가정방문 청소 전문 예약 전환형 프리미엄 홈페이지",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

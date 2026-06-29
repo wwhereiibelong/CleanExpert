@@ -1,0 +1,37 @@
+{
+  "entities": [
+    {
+      "name": "User",
+      "description": "CleanExpert 회원 및 관리자 정보",
+      "properties": [
+        { "name": "name", "type": "string", "description": "이름" },
+        { "name": "email", "type": "string", "description": "이메일" },
+        { "name": "phone", "type": "string", "description": "연락처" },
+        { "name": "address", "type": "string", "description": "기본 주소" },
+        { "name": "role", "type": "string", "description": "user 또는 admin" },
+        { "name": "createdAt", "type": "string", "description": "가입일" }
+      ]
+    },
+    {
+      "name": "Reservation",
+      "description": "방문 청소 예약 내역",
+      "properties": [
+        { "name": "userId", "type": "string", "description": "예약 회원 ID 또는 guest" },
+        { "name": "name", "type": "string", "description": "예약자 이름" },
+        { "name": "phone", "type": "string", "description": "연락처" },
+        { "name": "email", "type": "string", "description": "이메일" },
+        { "name": "address", "type": "string", "description": "방문 주소" },
+        { "name": "detailAddress", "type": "string", "description": "상세 주소" },
+        { "name": "serviceType", "type": "string", "description": "청소 서비스 종류" },
+        { "name": "houseType", "type": "string", "description": "집 유형" },
+        { "name": "size", "type": "string", "description": "평수 또는 크기" },
+        { "name": "reservationDate", "type": "string", "description": "예약 날짜" },
+        { "name": "reservationTime", "type": "string", "description": "예약 시간" },
+        { "name": "requestNote", "type": "string", "description": "요청사항" },
+        { "name": "status", "type": "string", "description": "예약 상태" },
+        { "name": "price", "type": "number", "description": "예상 서비스 요금" },
+        { "name": "createdAt", "type": "string", "description": "예약 생성일" }
+      ]
+    }
+  ]
+}
